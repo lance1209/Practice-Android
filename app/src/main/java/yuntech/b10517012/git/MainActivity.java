@@ -7,6 +7,7 @@ import android.util.Log;
 public class MainActivity extends AppCompatActivity {
     String test = "Test";
     int tr = 0 ;
+    String test2 = "測試 Reset";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,5 +16,8 @@ public class MainActivity extends AppCompatActivity {
     }
     void testMaster() {
         Log.d("test","測試 master 功能");
+    }
+    void testBranch() {
+        Log.d("test","測試分支功能");
     }
 }
