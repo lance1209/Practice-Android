@@ -20,4 +20,7 @@ public class MainActivity extends AppCompatActivity {
     void testBranch() {
         Log.d("test","測試分支功能");
     }
+    void testPush() {
+        Log.d("test","測試用push上傳程式")
+    }
 }
